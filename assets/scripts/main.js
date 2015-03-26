@@ -4,19 +4,7 @@
  * See https://github.com/strackovski/dawn-www
  */
 $(document).ready(function () {
-    $(window).scroll(function () {
-
-    });
-
     var elems = document.getElementsByTagName( 'a' );
-
-
-   /* $('a').on('click', function () {
-        $('.active').removeClass('active');
-        $(this).addClass('active');
-    });
-    */
-
     $(window).on('scroll', onScroll);
 
     //smoothscroll
@@ -28,9 +16,7 @@ $(document).ready(function () {
         }
         e.preventDefault();
         $(window).off('scroll');
-
         $('.active').removeClass('active');
-
         $(this).addClass('active');
 
         var target = this.hash;
@@ -87,20 +73,4 @@ function onScroll(event){
         }
     });
 }
-/*
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top - 64
-                }, 800);
-                return false;
-            }
-        }
-    });
-});
-*/
 
