@@ -3,3 +3,5 @@ src/
 .DS_Store
 ._.DS_Store
 npm-debug.log
+node_modules
+assets/build
