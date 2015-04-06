@@ -2,6 +2,8 @@ Unofficial web site about NASA's Dawn Mission
 =========
 One-page web site about NASA's recent Dawn Mission. 
 
+![Screens](http://www.envee.eu/projects/feats/space-feat-git.gif)
+
 Assets
 ----
    * Photography, imagery and text assets acquired from NASA public sources
